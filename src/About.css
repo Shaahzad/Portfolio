@@ -1,0 +1,11 @@
+.img-container{
+    padding: 80px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.about-img{
+    height: 50vh;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
