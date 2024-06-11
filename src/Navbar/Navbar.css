@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.navbar > h1{
+.fname{
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
@@ -26,7 +26,7 @@ li{
 }
 
 
-li > ul:nth-child(1){
+ul:nth-child(1){
     background-color: blue;
     color: #fff;
     padding: 10px;
@@ -58,12 +58,6 @@ li > ul:nth-child(1){
 }
 
 @media screen and (max-width: 768px) {
-
-    .navbar > h1{
-        font-size: 20px;
-        
-    }
-
     li{
         gap: 35px;
     }

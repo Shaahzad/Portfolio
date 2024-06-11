@@ -1,0 +1,36 @@
+.project > h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .project-link{
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+        padding: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .project > h1{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    
+}
