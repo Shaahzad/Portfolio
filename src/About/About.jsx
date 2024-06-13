@@ -14,6 +14,7 @@ const About = () => {
            web applications within a collaborative team environment. Possesses excellent communication, critical thinking,
            and learning agility to thrive in a fast-paced technological landscape.pen_spark</p>
            <div>
+            <p className='follow'>Follow And Connects With Me</p>
            <a href="https://github.com/shaahzad" target="_blank">
            <FaGithub/>
            </a>

@@ -1,0 +1,48 @@
+.skill{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.skill-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    }
+
+.skill-heading{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px) {
+   .skill-container{
+       flex-wrap: wrap;
+       gap: 10px;
+   }    
+   
+}
+
+@media screen and (max-width: 600px) {
+    .skill-heading{
+        font-size: 20px;
+        
+    }
+
+    .skill{
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .skill-heading{
+        font-size: 15px;
+    }
+
+}

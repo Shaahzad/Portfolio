@@ -9,22 +9,22 @@ const Project = () => {
        <h1>Projects</h1>
         <div className='project-link'>
        <Link href='https://github.com/Shaahzad/Social_media-MERN' isExternal>
-      Social Media App Mern Stack <ExternalLinkIcon mx='10px' />
+      Social Media App Mern Stack
      </Link>       
      <Link href='https://github.com/Shaahzad/YOUTUBE_MERN' isExternal>
-      Youtube App Mern Stack <ExternalLinkIcon mx='10px' />
+      Youtube App Mern Stack
      </Link>
      <Link href='https://github.com/Shaahzad/Ticket_Mern' isExternal>
-      Ticket Booking App Mern Stack <ExternalLinkIcon mx='10px' />
+      Ticket Booking App Mern Stack
      </Link>
      <Link href='https://github.com/Shaahzad/BookStore-MERN' isExternal>
-      Book Store App Mern Stack <ExternalLinkIcon mx='10px' />
+      Book Store App Mern Stack
      </Link>
      <Link href='https://github.com/Shaahzad/LinkedIn_' isExternal>
-      LinkedinClone With React & Firebase <ExternalLinkIcon mx='10px'  />
+      LinkedinClone With React & Firebase 
      </Link>
      <Link href='https://foods-api.netlify.app' isExternal>
-      search Food Api <ExternalLinkIcon mx='10px' />
+      search Food Api
      </Link>
       </div>
       </div>

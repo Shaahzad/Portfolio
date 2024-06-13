@@ -1,0 +1,86 @@
+.contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+.contact-p{
+    font-size: 20px;
+    width: 40%; 
+}  
+
+.contact-img{
+    height: 50vh;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid gray;
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 50px;
+}
+.contact-icon{
+    font-weight: 700;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gmail-img{
+    height: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-container{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+
+    .contact{   
+        padding-top: 10px;
+    }
+    .contact-img{
+        height: 40vh;
+        margin-top: 10px;
+    }
+
+    .contact-p{
+        width: 80%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .contact-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .contact-p{
+        width: 90%;
+    }
+    .contact-icon{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .contact-p{
+        font-size: 15px;
+    }
+}   
