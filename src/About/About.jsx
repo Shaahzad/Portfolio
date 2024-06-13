@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
     <div className='img-container'>
-        <img src="./src/images/shahzad-removebg-preview.png" className='about-img'/>
+        <img src="/images/shahzad-removebg-preview.png" className='about-img'/>
     <div className='about-text'>
         <h1>Mern Stack Developer</h1>
         <p>Highly motivated and results-oriented recent graduate with a strong foundation in the MERN Stack
