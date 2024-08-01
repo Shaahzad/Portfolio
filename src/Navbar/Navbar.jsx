@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='navbar'>
       <h1 className='fname'>Muhammad <span className='name'>Shahzad</span></h1>
       <button>
-        <a href={Resume} download="Muhammad Shahzad.pdf">
+        <a href={Resume} download="Muhammad Shahzad resume.pdf">
         Download Resume
         </a>
       </button>
