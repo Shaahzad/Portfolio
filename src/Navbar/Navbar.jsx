@@ -6,7 +6,7 @@ const Navbar = () => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="navbar w-full bg-purple-500 text-white shadow-lg">
+        <div className="navbar w-full bg-purple-500 text-white shadow-lg md:px-10">
           <div className="flex-1 px-2 mx-2 font-bold font-mono">Muhammad Shahzad</div>
           <div className="flex-none md:hidden">   
             <label
@@ -43,7 +43,7 @@ const Navbar = () => {
       </div>
       <div className="drawer-side">
         <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
-        <ul className="menu bg-purple-500 h-full w-80 p-4 flex justify-center items-center">
+        <ul className="menu bg-purple-500 text-white h-full p-4 flex justify-center items-center">
           {/* Sidebar content here */}
           <li className='font-mono font-bold text-xl'><a>Home</a></li>
           <li className='font-mono font-bold text-xl'><a>About</a></li>
