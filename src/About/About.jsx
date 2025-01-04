@@ -1,31 +1,49 @@
 import React from 'react'
-import './About.css'
 import { FaGithub,FaLinkedin } from 'react-icons/fa'
 const About = () => {
   return (
-    <>
-    <div className='img-container'>
-        <img src="/images/shahzad-removebg-preview.png" className='about-img'/>
-    <div className='about-text'>
-        <h1>Mern Stack Developer</h1>
-        <p>Highly motivated and results-oriented recent graduate with a strong foundation in the MERN Stack
-          (MongoDB, Express.js, React.js, Node.js).
-          Eager to leverage technical skills and problem-solving abilities to contribute to the development of innovative
-           web applications within a collaborative team environment. Possesses excellent communication, critical thinking,
-           and learning agility to thrive in a fast-paced technological landscape.</p>
-           <div>
-            <p className='follow'>Follow And Connects With Me</p>
-           <a href="https://github.com/shaahzad" target="_blank">
-           <FaGithub/>
-           </a>
-           <a href="https://www.linkedin.com/in/mshahzad-/" target="_blank">
-           <FaLinkedin className='linkedin'/>
-           </a>
-           </div>
+    <div className="hero min-h-screen">
+    <div className="hero-content flex-col lg:flex-row-reverse">
+      <img src="/images/shahzad-removebg-preview.png" className="max-w-sm rounded-lg shadow-2xl h-60 md:h-80"/>
+      <div className="text-center text-white md:text-left">
+        <h1 className="text-5xl font-bold">Mern Stack Developer</h1>
+        <p className="py-6">
+        Highly motivated and results-oriented recent graduate with a strong foundation in the MERN Stack
+       (MongoDB, Express.js, React.js, Node.js).
+       Eager to leverage technical skills and problem-solving abilities to contribute to the development of innovative
+       web applications within a collaborative team environment. Possesses excellent communication, critical thinking,
+       and learning agility to thrive in a fast-paced technological landscape.
+        </p>
+        <div className="space-x-4 flex justify-center items-center md:text-left md:justify-start">
+        <p>Follow And Connect With Me</p>
+        <a href="https://github.com/shaahzad" target="_blank" className="btn btn-primary">
+        <FaGithub/>
+        </a>
+        <a href="https://github.com/shaahzad" target="_blank" className="btn btn-primary">
+        <FaLinkedin/>
+        </a>
+        </div>
+      </div>
     </div>
-    </div>
-    </>
+  </div>
   )
 }
 
+
+
 export default About
+ 
+{/*  */}
+
+{/* <h1 className="text-5xl font-bold"></h1>
+<p>
+
+</p>
+<div className="space-x-4 flex items-center md:text-left">
+<p></p>
+<div className='flex-col md:flex-row'>
+<a  className="btn btn-primary">
+ </a>
+<a href="https://www.linkedin.com/in/mshahzad-/" target="_blank" className="btn btn-primary">
+ </a>
+</div> */}
