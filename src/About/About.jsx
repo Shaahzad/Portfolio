@@ -33,17 +33,3 @@ const About = () => {
 
 export default About
  
-{/*  */}
-
-{/* <h1 className="text-5xl font-bold"></h1>
-<p>
-
-</p>
-<div className="space-x-4 flex items-center md:text-left">
-<p></p>
-<div className='flex-col md:flex-row'>
-<a  className="btn btn-primary">
- </a>
-<a href="https://www.linkedin.com/in/mshahzad-/" target="_blank" className="btn btn-primary">
- </a>
-</div> */}
