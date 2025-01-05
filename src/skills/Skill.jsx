@@ -18,9 +18,9 @@ import { TbBrandReactNative } from "react-icons/tb";
 const Skill = () => {
   return (
     <>
-    <div>
+    <div className='px-8'>
         <h1 className='text-center text-3xl font-bold text-white mb-2'>Frontend Skills</h1>
-    <div className='flex flex-wrap justify-center gap-4'>
+    <div className='flex flex-wrap justify-center gap-6'>
             <div className='skill btn btn-outline btn-info'>
                 <h3>HTML</h3> 
                 <FaHtml5 style={{color:"brown", fontSize:"18px"}}/>
@@ -66,9 +66,8 @@ const Skill = () => {
               <TbBrandReactNative style={{color:"blue", fontSize:"20px"}}/>
             </div>
         </div>
-    </div>
     <h1 className='text-center text-3xl font-bold text-white m-2'>Backend Skills</h1>
-    <div className='flex flex-wrap justify-center gap-4'>
+    <div className='flex flex-wrap justify-center gap-6'>
         <div className="skill btn btn-outline btn-info">
             <h3>Nodejs</h3>
             <FaNodeJs style={{color:"green", fontSize:"20px"}}/>
@@ -81,6 +80,7 @@ const Skill = () => {
             <h3>MongoDb</h3>
             <DiMongodb style={{color:"green", fontSize:"20px"}}/>
         </div>
+    </div>
     </div>
     </>
   )
