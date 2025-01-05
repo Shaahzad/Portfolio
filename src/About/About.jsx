@@ -7,7 +7,7 @@ const About = () => {
       <img src="/images/shahzad-removebg-preview.png" className="max-w-sm animate-pulse rounded-lg shadow-2xl h-40 md:h-80"/>
       <div className="text-center md:mt-[50px] text-white md:text-left">
         <h1 className="md:text-5xl md:font-bold text-2xl">Web And Mobile App Developer</h1>
-        <p className="py-6 text-center font-bold md:text-left">
+        <p className="py-6 text-center md:font-bold md:text-left">
         Highly motivated and results-oriented recent graduate with a strong foundation in the MERN Stack
         <b className='text-pink-500'> (MongoDB, Express.js, React.js, Node.js And React Native).</b>
        Eager to leverage technical skills and problem-solving abilities to contribute to the development of innovative
@@ -20,7 +20,7 @@ const About = () => {
         <a href="https://github.com/shaahzad" target="_blank" className="btn btn-primary">
         <FaGithub/>
         </a>
-        <a href="https://github.com/shaahzad" target="_blank" className="btn btn-primary">
+        <a href="https://www.linkedin.com/in/mshahzad-/" target="_blank" className="btn btn-primary">
         <FaLinkedin/>
         </a>
         </div>

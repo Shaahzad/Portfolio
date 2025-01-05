@@ -14,8 +14,8 @@ const App = () => {
       <BrowserRouter>
       <Navbar/>
       <About/>
-      {/* <Skill/>
-      <Project/>
+      <Skill/>
+      {/* <Project/>
       <Contact/>
       <Footer/> */}
       </BrowserRouter>
