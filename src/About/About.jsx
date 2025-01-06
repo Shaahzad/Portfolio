@@ -1,8 +1,10 @@
 import React from 'react'
 import { FaGithub,FaLinkedin } from 'react-icons/fa'
+
 const About = () => {
   return (
-    <div className="hero min-h-screen px-8">
+    <>
+  <div className="hero min-h-screen px-8">
     <div className="hero-content flex-col md:flex-row-reverse">
       <img src="/images/shahzad-removebg-preview.png" className="max-w-sm animate-pulse rounded-lg shadow-2xl h-40 md:h-80"/>
       <div className="text-center md:mt-[50px] text-white md:text-left">
@@ -28,6 +30,7 @@ const About = () => {
       </div>
     </div>
   </div>
+    </>
   )
 }
 

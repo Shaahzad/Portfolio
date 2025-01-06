@@ -1,7 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import About from '../About/About';
+import Skill from '../skills/Skill';
 
 const Navbar = () => {
   return (
+    <>
     <div className="drawer drawer-end">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
@@ -32,10 +36,16 @@ const Navbar = () => {
           <div className="hidden md:block">
             <ul className="menu menu-horizontal p-0">
               {/* Navbar menu items */}
+              <Link to={'/'}>
               <li className='font-mono font-bold'><a>Home</a></li>
+              </Link>
+              <Link to={'/about'}>
               <li className='font-mono font-bold'><a>About</a></li>
+              </Link>
               <li className='font-mono font-bold'><a>Projects</a></li>
+              <Link to={'/skill'}> 
               <li className='font-mono font-bold'><a>Skills</a></li>
+              </Link>
               <li className='font-mono font-bold'><a>Contact</a></li>
             </ul>
           </div>
@@ -53,6 +63,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
+    </>
   );
 };
 

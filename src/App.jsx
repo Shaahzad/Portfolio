@@ -13,14 +13,19 @@ const App = () => {
     <div>
       <BrowserRouter>
       <Navbar/>
-      <About/>
-      <Skill/>
-      {/* <Project/>
-      <Contact/>
-      <Footer/> */}
+       <Routes>
+        <Route path='/about' element={<About/>} />
+        <Route path='/skill' element={<Skill/>} />
+       </Routes>
+      <Footer/>
       </BrowserRouter>
     </div>
   )
 }
 
 export default App
+
+
+      {/* <Project/>
+      <Contact/>
+      <Footer/> */}
