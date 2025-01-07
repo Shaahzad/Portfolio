@@ -42,10 +42,10 @@ const Navbar = () => {
               <Link to={'/about'}>
               <li className='font-mono font-bold'><a>About</a></li>
               </Link>
-              <li className='font-mono font-bold'><a>Projects</a></li>
               <Link to={'/skill'}> 
               <li className='font-mono font-bold'><a>Skills</a></li>
               </Link>
+              <li className='font-mono font-bold'><a>Projects</a></li>
               <li className='font-mono font-bold'><a>Contact</a></li>
             </ul>
           </div>
