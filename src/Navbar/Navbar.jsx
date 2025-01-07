@@ -39,9 +39,6 @@ const Navbar = () => {
               <Link to={'/'}>
               <li className='font-mono font-bold'><a>Home</a></li>
               </Link>
-              <Link to={'/about'}>
-              <li className='font-mono font-bold'><a>About</a></li>
-              </Link>
               <Link to={'/skill'}> 
               <li className='font-mono font-bold'><a>Skills</a></li>
               </Link>
