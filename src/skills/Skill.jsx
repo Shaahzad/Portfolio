@@ -18,7 +18,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 const Skill = () => {
   return (
     <>
-    <div className='px-8 mt-10 mb-20'> 
+    <div className='px-8 mt-12 mb-20'> 
   <h1 className='text-center text-3xl font-bold text-white mb-2'>Frontend Skills</h1>
     <div className='flex flex-wrap justify-center gap-5'>
             <div className='skill btn btn-outline bg-gradient-to-r from-purple-500 via-blue-500 to-green-500'>
