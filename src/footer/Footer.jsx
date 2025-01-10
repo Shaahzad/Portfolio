@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="footer bg-neutral text-neutral-content p-8 fixed bottom-0 w-full">
+  <footer className="flex md:flex-row  footer bg-neutral text-neutral-content md:p-8 p-4 md:h-40 h-40 fixed bottom-0 w-full">
     <aside>
       <p>
         Muhammad Shahzad
