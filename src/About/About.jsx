@@ -28,7 +28,7 @@ const About = () => {
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content">
-    <div className='px-2 sm:px-2 lg:px-9'>
+    <div className='px-2 md:px-4 lg:px-8 xl:px-8'>
       <h1 className="mb-5 text-5xl font-bold">Web And Mobile App Developer</h1>
       <p className='font-bold'>
       Highly motivated and results-oriented recent graduate with a strong foundation in the MERN Stack
