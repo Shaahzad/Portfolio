@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
   <Sheet>
   <SheetTrigger className='md:hidden'>
-  <FaHamburger size={25} className='flex md:hidden cursor-pointer'/>
+  <FaHamburger size={20} className='flex md:hidden cursor-pointer'/>
   </SheetTrigger>
   <SheetContent>
     <SheetHeader className='mt-40'>
