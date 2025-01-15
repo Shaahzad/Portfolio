@@ -19,7 +19,7 @@ const About = () => {
   //   </div>
   // </div>
   <div
-  className="h-[72vh] bg-cover bg-center bg-no-repeat"
+  className="h-[90.5vh] bg-cover bg-center bg-no-repeat"
   style={{
     backgroundImage: "url('../../public/images/bg.jpg')",
     backgroundRepeat: "no-repeat",
