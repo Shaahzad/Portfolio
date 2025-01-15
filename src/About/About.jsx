@@ -26,7 +26,7 @@ const About = () => {
     backgroundSize: "cover",
     backgroundPosition: "center"
   }}>
-  <div className="flex items-center justify-center h-full bg-gray-900 bg-opacity-50">
+  <div className="flex items-center justify-center h-full bg-gray-800 bg-opacity-50">
     <div className="max-w-[800px] px-8 md:px-8">
       <h1 className="mb-5 text-2xl md:text-5xl md:text-start font-bold text-white">Web And Mobile App Developer</h1>
       <p className='font-bold text-white md:text-xl'>
