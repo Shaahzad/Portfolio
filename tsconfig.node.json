@@ -9,7 +9,7 @@
       "forceConsistentCasingInFileNames": true,
       "outDir": "./dist"
     },
-    "include": ["src/**/*.ts", "src/**/*.tsx", "src/components/ui/sheet.jsx"],
+    "include": ["src/**/*.ts", "src/**/*.tsx", "src/components/ui/sheet.jsx", "src/components/ui/aspect-ratio.jsx"],
     "exclude": ["node_modules"]
   }
   
