@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
-import About from './About/About'
+import Project from './Projects/Project'
+import Skill from './skills/Skill'
+import Home from './Home/Home'
 
 
 const App = () => {
@@ -9,7 +11,11 @@ const App = () => {
     <div>
       <BrowserRouter>
       <Navbar/>
-      <About/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/projects' element={<Project/>}/>
+        <Route path='/skills' element={<Skill/>}/>
+      </Routes>
       </BrowserRouter>
     </div>
   )
