@@ -19,7 +19,7 @@ const Skill = () => {
   return (
     <>
   <div className='px-8 mt-12 mb-20'> 
-  <image src="../../public/images/skill.jpg"/>
+  <image src="../../public/images/skill.jpg" className='w-full'/>
   <h1 className='text-center text-3xl font-bold text-black mb-2'>Frontend Skills</h1>
     <div className='flex flex-wrap justify-center gap-5'>
     <div className="flex items-center gap-2 cursor-pointer hover:scale-110 bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 px-6 py-2 rounded">
